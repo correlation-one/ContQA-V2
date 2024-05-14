@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { test, expect } = require('@playwright/test');
+const { test, chromium, expect } = require('@playwright/test');
 const { allure } = require('allure-playwright');
 const fs = require('fs');
 
