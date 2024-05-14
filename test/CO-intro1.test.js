@@ -1,5 +1,8 @@
 require('dotenv').config();
-const { test, chromium, expect } = require('@playwright/test');
+const { test, expect } = require('@playwright/test');
+const { allure } = require('allure-playwright');
+const fs = require('fs');
+
 
 test('CO Intro 1', async () => {
     test.info().description = 'Intro to codio 2';
@@ -143,6 +146,15 @@ test('CO Intro 1', async () => {
     // If there is no image or unexpected content, log an error but continue the test
     if (imageCount === 0) {
         console.error('Error: Expected image is missing in the specified element within the iframe.');
+
+        // Take a screenshot of the current state
+        const screenshotPath = 'error_screenshot.png';
+        await page.screenshot({ path: screenshotPath });
+        console.log('Screenshot taken due to missing image.');
+
+        // Attach the screenshot to the Allure report
+        allure.attachment('Missing Image Screenshot', fs.readFileSync(screenshotPath), 'image/png');
+        
     } else {
         console.log('Image is correctly placed in the specified element within the iframe.');
     }
