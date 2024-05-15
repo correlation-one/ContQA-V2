@@ -12,7 +12,7 @@ test('CO Intro 1', async () => {
     const codioPass = credentials.codiopass;
 
     const browser = await chromium.launch({
-        headless: false // Ensure the browser runs in headless mode
+        headless: true // Ensure the browser runs in headless mode
     });
     const context = await browser.newContext();
     const page = await context.newPage();
