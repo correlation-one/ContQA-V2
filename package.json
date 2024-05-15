@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "report": "allure generate --clean",
+    "deploy-report": "git add allure-report && git commit -m 'Update Allure Report' && git push origin main"
   },
   "keywords": [],
   "author": "",
