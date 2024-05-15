@@ -46,8 +46,6 @@ test('CO Intro 1', async () => {
 
     // Ensure there are at least two instances if you want to click the second one
     await expect(moreOptionsButtons).toHaveCount(3);
-
-    // This is an example of how we can improve the code with classes (this could be imported from one class files but I haven't been able to work all this alone)
     const secondMoreOptionsButton = moreOptionsButtons.nth(1);
     await secondMoreOptionsButton.waitFor({ state: 'visible' });
 

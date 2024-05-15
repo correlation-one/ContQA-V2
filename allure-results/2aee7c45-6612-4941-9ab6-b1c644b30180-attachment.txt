@@ -1,0 +1,5 @@
+CODIO url verified
+Sign in button clicked
+Clicked on Introduction to Cloud Part 1
+Logged in as student
+The text "Virtual machine is ready." is not present on the page.
