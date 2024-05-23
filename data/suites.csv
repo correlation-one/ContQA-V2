@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed May 22 14:05:06 UTC 2024","Wed May 22 14:05:30 UTC 2024","24859","Desktop Chrome","CO-intro1.test.js","","","","Reset Course Operations",""
-"passed","Wed May 22 14:05:30 UTC 2024","Wed May 22 14:06:39 UTC 2024","68802","Desktop Chrome","VM-check.test.js","","","","CO Intro 1",""
-"passed","Wed May 22 14:03:40 UTC 2024","Wed May 22 14:05:06 UTC 2024","85497","Desktop Chrome","CO-intro1.test.js","","","","CO Intro 1",""
+"passed","Thu May 23 14:05:10 UTC 2024","Thu May 23 14:06:21 UTC 2024","71430","Desktop Chrome","VM-check.test.js","","","","CO Intro 1",""
+"passed","Thu May 23 14:03:22 UTC 2024","Thu May 23 14:04:45 UTC 2024","82762","Desktop Chrome","CO-intro1.test.js","","","","CO Intro 1",""
+"passed","Thu May 23 14:04:45 UTC 2024","Thu May 23 14:05:10 UTC 2024","24667","Desktop Chrome","CO-intro1.test.js","","","","Reset Course Operations",""
