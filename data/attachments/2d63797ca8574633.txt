@@ -3,5 +3,5 @@ Sign in button clicked
 Clicked on Introduction to Cloud Part 1
 Logged in as student
 Lesson clicked, starting timer.
-The text "Virtual machine is ready." appeared after 39.117 seconds.
+The text "Virtual machine is ready." appeared after 40.396 seconds.
 Successfully clicked on "Hide/Show the control bar"
