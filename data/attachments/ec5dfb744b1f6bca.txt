@@ -1,4 +1,4 @@
 Resetting course
 clicked on reset
-Confirmation code text: Confirmation code: 50170
+Confirmation code text: Confirmation code: 78276
 Course resetted
